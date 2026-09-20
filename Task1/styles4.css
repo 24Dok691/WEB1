@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAF6EF;
+  font-family: 'Times New Roman', Times, serif;
+  color: #2E2A25;
+}
+
+h1, h2 {
+  color: #3A4A40;
+  text-align: center;
+}
+
+#page-title {
+  font-size: 36px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #E4DCCB;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #3A4A40;
+  color: #FAF6EF;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F3EEE2;
+}
+
+.highlight-row {
+  background-color: #E9D9B8 !important;
+}
+
+/* Form */
+.feedback-form {
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #E4DCCB;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.radio-group label {
+  display: inline-block;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  background-color: #B08968;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #8A6A4F;
+}
+
+.qw{
+  border: 20px;
+  max-width: 2000px;
+  background-color: #0f0c0a;
+}
+
+.head{
+  max-width:1000px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: auto;
+}
+
+.head h1{
+  color: #FFFdf7;
+}
+
+.ahref{
+  font-size: 20px;
+  color: #fffdf7;
+  display: flex;
+  gap: 30px;
+}
+
+.ahref a{
+  border: 20px;
+  background-color: #0f0c0a;
+  margin: auto;
+  color: #fffdf7;
+  text-decoration: none;
+}
